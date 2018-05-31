@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93E4E5520BFE39D00F792F5 /* Planets in Resources */ = {isa = PBXBuildFile; fileRef = B93E4E5420BFE39D00F792F5 /* Planets */; };
+		B94C91CC20BBAB6F00A6AAC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C91CB20BBAB6F00A6AAC9 /* AppDelegate.m */; };
+		B94C91D220BBAB6F00A6AAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94C91D020BBAB6F00A6AAC9 /* Main.storyboard */; };
+		B94C91D420BBAB7100A6AAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94C91D320BBAB7100A6AAC9 /* Assets.xcassets */; };
+		B94C91D720BBAB7100A6AAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94C91D520BBAB7100A6AAC9 /* LaunchScreen.storyboard */; };
+		B94C91DA20BBAB7100A6AAC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C91D920BBAB7100A6AAC9 /* main.m */; };
+		B94C91E220BBAD0900A6AAC9 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C91E120BBAD0900A6AAC9 /* ListTableViewController.m */; };
+		B94C91E520BBAF6900A6AAC9 /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C91E420BBAF6900A6AAC9 /* ListViewCell.m */; };
+		B94C91EA20BBB65B00A6AAC9 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = B94C91E920BBB65B00A6AAC9 /* Planet.m */; };
+		B98ADAD720BBC4E5000B83F5 /* DetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B98ADAD620BBC4E5000B83F5 /* DetailsTableViewCell.m */; };
+		B98ADADA20BBC9B4000B83F5 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98ADAD920BBC9B4000B83F5 /* DetailsTableViewController.m */; };
+		B98ADADC20BBCDAF000B83F5 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = B98ADADB20BBCDAF000B83F5 /* mario.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B93E4E5420BFE39D00F792F5 /* Planets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Planets; sourceTree = "<group>"; };
+		B94C91C720BBAB6F00A6AAC9 /* Solar System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94C91CA20BBAB6F00A6AAC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B94C91CB20BBAB6F00A6AAC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B94C91D120BBAB6F00A6AAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B94C91D320BBAB7100A6AAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B94C91D620BBAB7100A6AAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B94C91D820BBAB7100A6AAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B94C91D920BBAB7100A6AAC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B94C91E020BBAD0900A6AAC9 /* ListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		B94C91E120BBAD0900A6AAC9 /* ListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		B94C91E320BBAF6900A6AAC9 /* ListViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		B94C91E420BBAF6900A6AAC9 /* ListViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		B94C91E820BBB65B00A6AAC9 /* Planet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		B94C91E920BBB65B00A6AAC9 /* Planet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		B98ADAD520BBC4E5000B83F5 /* DetailsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewCell.h; sourceTree = "<group>"; };
+		B98ADAD620BBC4E5000B83F5 /* DetailsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewCell.m; sourceTree = "<group>"; };
+		B98ADAD820BBC9B4000B83F5 /* DetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewController.h; sourceTree = "<group>"; };
+		B98ADAD920BBC9B4000B83F5 /* DetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewController.m; sourceTree = "<group>"; };
+		B98ADADB20BBCDAF000B83F5 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94C91C420BBAB6F00A6AAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B94C91BE20BBAB6F00A6AAC9 = {
+			isa = PBXGroup;
+			children = (
+				B94C91C920BBAB6F00A6AAC9 /* Solar System */,
+				B94C91C820BBAB6F00A6AAC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B94C91C820BBAB6F00A6AAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B94C91C720BBAB6F00A6AAC9 /* Solar System.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B94C91C920BBAB6F00A6AAC9 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				B93E4E5420BFE39D00F792F5 /* Planets */,
+				B98ADADB20BBCDAF000B83F5 /* mario.png */,
+				B94C91CA20BBAB6F00A6AAC9 /* AppDelegate.h */,
+				B94C91CB20BBAB6F00A6AAC9 /* AppDelegate.m */,
+				B94C91EB20BBB69900A6AAC9 /* Classes */,
+				B94C91E720BBAF8F00A6AAC9 /* ViewControllers */,
+				B94C91E620BBAF8500A6AAC9 /* Cells */,
+				B94C91D020BBAB6F00A6AAC9 /* Main.storyboard */,
+				B94C91D320BBAB7100A6AAC9 /* Assets.xcassets */,
+				B94C91D520BBAB7100A6AAC9 /* LaunchScreen.storyboard */,
+				B94C91D820BBAB7100A6AAC9 /* Info.plist */,
+				B94C91D920BBAB7100A6AAC9 /* main.m */,
+			);
+			path = "Solar System";
+			sourceTree = "<group>";
+		};
+		B94C91E620BBAF8500A6AAC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B94C91E320BBAF6900A6AAC9 /* ListViewCell.h */,
+				B94C91E420BBAF6900A6AAC9 /* ListViewCell.m */,
+				B98ADAD520BBC4E5000B83F5 /* DetailsTableViewCell.h */,
+				B98ADAD620BBC4E5000B83F5 /* DetailsTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B94C91E720BBAF8F00A6AAC9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B94C91E020BBAD0900A6AAC9 /* ListTableViewController.h */,
+				B94C91E120BBAD0900A6AAC9 /* ListTableViewController.m */,
+				B98ADAD820BBC9B4000B83F5 /* DetailsTableViewController.h */,
+				B98ADAD920BBC9B4000B83F5 /* DetailsTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B94C91EB20BBB69900A6AAC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B94C91E820BBB65B00A6AAC9 /* Planet.h */,
+				B94C91E920BBB65B00A6AAC9 /* Planet.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B94C91C620BBAB6F00A6AAC9 /* Solar System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94C91DD20BBAB7100A6AAC9 /* Build configuration list for PBXNativeTarget "Solar System" */;
+			buildPhases = (
+				B94C91C320BBAB6F00A6AAC9 /* Sources */,
+				B94C91C420BBAB6F00A6AAC9 /* Frameworks */,
+				B94C91C520BBAB6F00A6AAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar System";
+			productName = "Solar System";
+			productReference = B94C91C720BBAB6F00A6AAC9 /* Solar System.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B94C91BF20BBAB6F00A6AAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Khant Zaw Ko";
+				TargetAttributes = {
+					B94C91C620BBAB6F00A6AAC9 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B94C91C220BBAB6F00A6AAC9 /* Build configuration list for PBXProject "Solar System" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B94C91BE20BBAB6F00A6AAC9;
+			productRefGroup = B94C91C820BBAB6F00A6AAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B94C91C620BBAB6F00A6AAC9 /* Solar System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B94C91C520BBAB6F00A6AAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98ADADC20BBCDAF000B83F5 /* mario.png in Resources */,
+				B93E4E5520BFE39D00F792F5 /* Planets in Resources */,
+				B94C91D720BBAB7100A6AAC9 /* LaunchScreen.storyboard in Resources */,
+				B94C91D420BBAB7100A6AAC9 /* Assets.xcassets in Resources */,
+				B94C91D220BBAB6F00A6AAC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B94C91C320BBAB6F00A6AAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98ADAD720BBC4E5000B83F5 /* DetailsTableViewCell.m in Sources */,
+				B94C91EA20BBB65B00A6AAC9 /* Planet.m in Sources */,
+				B94C91E520BBAF6900A6AAC9 /* ListViewCell.m in Sources */,
+				B98ADADA20BBC9B4000B83F5 /* DetailsTableViewController.m in Sources */,
+				B94C91DA20BBAB7100A6AAC9 /* main.m in Sources */,
+				B94C91CC20BBAB6F00A6AAC9 /* AppDelegate.m in Sources */,
+				B94C91E220BBAD0900A6AAC9 /* ListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B94C91D020BBAB6F00A6AAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94C91D120BBAB6F00A6AAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B94C91D520BBAB7100A6AAC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B94C91D620BBAB7100A6AAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B94C91DB20BBAB7100A6AAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B94C91DC20BBAB7100A6AAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B94C91DE20BBAB7100A6AAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX9SP8QRW2;
+				INFOPLIST_FILE = "Solar System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khantzawko.Solar-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B94C91DF20BBAB7100A6AAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX9SP8QRW2;
+				INFOPLIST_FILE = "Solar System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "khantzawko.Solar-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B94C91C220BBAB6F00A6AAC9 /* Build configuration list for PBXProject "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94C91DB20BBAB7100A6AAC9 /* Debug */,
+				B94C91DC20BBAB7100A6AAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94C91DD20BBAB7100A6AAC9 /* Build configuration list for PBXNativeTarget "Solar System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94C91DE20BBAB7100A6AAC9 /* Debug */,
+				B94C91DF20BBAB7100A6AAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B94C91BF20BBAB6F00A6AAC9 /* Project object */;
+}
